@@ -1,1 +1,1 @@
-# GithubExplorationUtility
+# github-exploration-utility
