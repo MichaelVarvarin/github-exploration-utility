@@ -25,12 +25,10 @@
         "prettier"
     ],
     "rules": {
-        "rules": {
-            "react/react-in-jsx-scope": "off",
-            "camelcase": "error",
-            "spaced-comment": "error",
-            "no-duplicate-imports": "error"
-        }
+        "react/react-in-jsx-scope": 0,
+        "camelcase": 2,
+        "spaced-comment": 2,
+        "no-duplicate-imports": 2
     },
     "settings": {
         "import/resolver": {
