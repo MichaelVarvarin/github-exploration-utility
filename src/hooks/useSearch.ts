@@ -5,8 +5,9 @@ import personalAccessToken from "../config";
 
 
 async function Search(input: string) {
-  if(!input) return {};
-  console.log("Search called")
+  if(!input) {
+    return {};
+  }
   try {
     const response = await axios({
       method: "get",
@@ -26,20 +27,21 @@ export function useSearch(initialState: string){
     setInput(e.target.value);
   }
   const deferredInput = useDeferredValue(input);
-  const [searchResults, setSearchResults] = useState()
+  const [searchResult, setSearchResult] = useState()
 
   useEffect(() => {
+    async function load() {
+      const res = await Search(deferredInput)
+      if (!active) {
+        return
+      }
+      setSearchResult(res)
+    }
+
     let active = true
     load()
     return () => { active = false }
-
-    async function load() {
-      setSearchResults(undefined) // this is optional
-      const res = await Search(deferredInput)
-      if (!active) { return }
-      setSearchResults(res)
-    }
   }, [deferredInput])
   return {bind: {value: input,onChange},
-  searchResults}
+  searchResult}
 }

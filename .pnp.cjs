@@ -2801,6 +2801,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["regenerator-runtime", "npm:0.13.9"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:7.18.9", {\
+          "packageLocation": "./.yarn/cache/@babel-runtime-npm-7.18.9-28ca6b5f61-36dd736bab.zip/node_modules/@babel/runtime/",\
+          "packageDependencies": [\
+            ["@babel/runtime", "npm:7.18.9"],\
+            ["regenerator-runtime", "npm:0.13.9"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["@babel/runtime-corejs3", [\
@@ -3195,7 +3203,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/core", null],\
             ["@babel/helper-module-imports", "npm:7.18.6"],\
             ["@babel/plugin-syntax-jsx", "virtual:53b5a275255baa7599efaecb9da3531c3234fa8744d033f2dd6d57db1120d90052b53993ab6261de245f1a61d7e6c5d199b75b9867e9323dd55e02a19af1faf0#npm:7.18.6"],\
-            ["@babel/runtime", "npm:7.18.6"],\
+            ["@babel/runtime", "npm:7.18.9"],\
             ["@emotion/hash", "npm:0.8.0"],\
             ["@emotion/memoize", "npm:0.7.5"],\
             ["@emotion/serialize", "npm:1.0.4"],\
@@ -3269,7 +3277,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@emotion/react", "virtual:c3c7e79b55126be9b4b4cdda13c52c11c3168865226f42fc072731c0348f8210c51272f4f3c5c7cf0602f4865c99c6be1d6742ea35b14549383e694e1e0e3be3#npm:11.9.3"],\
             ["@babel/core", null],\
-            ["@babel/runtime", "npm:7.18.6"],\
+            ["@babel/runtime", "npm:7.18.9"],\
             ["@emotion/babel-plugin", "virtual:c9c1ff545218dfc186b2ffa04fbcdc0045aba67c8844d4f33a872d1d06c0034744157be9af8c7aa7a8e0baf3fb9e664fc91c34b6bf22477d55237d6d8051dd08#npm:11.9.2"],\
             ["@emotion/cache", "npm:11.9.3"],\
             ["@emotion/serialize", "npm:1.0.4"],\
@@ -3325,7 +3333,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@emotion/styled", "virtual:c3c7e79b55126be9b4b4cdda13c52c11c3168865226f42fc072731c0348f8210c51272f4f3c5c7cf0602f4865c99c6be1d6742ea35b14549383e694e1e0e3be3#npm:11.9.3"],\
             ["@babel/core", null],\
-            ["@babel/runtime", "npm:7.18.6"],\
+            ["@babel/runtime", "npm:7.18.9"],\
             ["@emotion/babel-plugin", "virtual:c9c1ff545218dfc186b2ffa04fbcdc0045aba67c8844d4f33a872d1d06c0034744157be9af8c7aa7a8e0baf3fb9e664fc91c34b6bf22477d55237d6d8051dd08#npm:11.9.2"],\
             ["@emotion/is-prop-valid", "npm:1.1.3"],\
             ["@emotion/react", "virtual:c3c7e79b55126be9b4b4cdda13c52c11c3168865226f42fc072731c0348f8210c51272f4f3c5c7cf0602f4865c99c6be1d6742ea35b14549383e694e1e0e3be3#npm:11.9.3"],\
@@ -6205,7 +6213,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/babel-plugin-macros-npm-2.8.0-451367d7e7-59b09a21cf.zip/node_modules/babel-plugin-macros/",\
           "packageDependencies": [\
             ["babel-plugin-macros", "npm:2.8.0"],\
-            ["@babel/runtime", "npm:7.18.6"],\
+            ["@babel/runtime", "npm:7.18.9"],\
             ["cosmiconfig", "npm:6.0.0"],\
             ["resolve", "patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"]\
           ],\

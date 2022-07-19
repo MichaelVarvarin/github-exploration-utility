@@ -1,9 +1,7 @@
 import React from 'react';
-import {TextField} from "@mui/material";
-import * as events from "events";
-// import logo from './logo.svg';
+import {TextField, Container} from "@mui/material";
 import './App.css';
-import {SearchResults} from "./components/SearchResults/SearchResults"
+import {SearchResult} from "./components/SearchResult/SearchResult"
 import {useSearch} from "./hooks/useSearch";
 
 
@@ -12,7 +10,9 @@ function App() {
   const search = useSearch("")
 
   return (
-    <div className="App">
+    <Container
+      maxWidth="md"
+    >
       <h1>Welcome to Github Exploration Utility</h1>
       <TextField fullWidth
         id="standard-search"
@@ -21,9 +21,9 @@ function App() {
         variant="standard"
         {...search.bind}
       />
-      <SearchResults
-      searchResults={search.searchResults}/>
-    </div>
+      <SearchResult
+      searchResult={search.searchResult}/>
+    </Container>
   );
 }
 
