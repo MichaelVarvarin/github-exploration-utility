@@ -6,7 +6,6 @@ type Props = {
 
 export function SearchResult (props: Props){
   const {searchResult} = props;
-  console.log(searchResult);
   return (
     <div>
       <h3>{JSON.stringify(searchResult)}</h3>
